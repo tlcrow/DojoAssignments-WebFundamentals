@@ -1,0 +1,322 @@
+#bluewrappertop{
+    width: 970px;
+    height:30px;
+    background-color: rgb(20,82,116);
+    position: absolute;
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 10px;
+
+}
+#bluewrappertop p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    padding-left: 800px;
+    display: inline;
+    vertical-align: top;
+
+}
+#bluewrappertop a{
+    color:gold;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    text-decoration: underline;
+    display: inline;
+    margin-left: 5px;
+    position: relative;
+    top: 11px;
+    left: 4px;
+
+}
+#bluewrappertop h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    display: inline;
+    position: relative;
+    bottom: 13px;
+    left: 7px;
+
+}
+#bluewrappermain{
+    width: 970px;
+    height: 650px;
+    background-color: rgb(20,82,116);
+    display: flex;
+    flex-flow: row wrap;
+
+}
+#bluewrappermain img{
+    width: 325px;
+    height:100px;
+    margin-left: 30px;
+    margin-top: 20px;
+    display: inline;
+
+}
+#searchbox{
+    width: 225px;
+    height: 45px;
+    margin-left: 725px;
+    background-color: rgb(67,67,67);
+    margin-top: 45px;
+    border-radius: 5px;
+    box-shadow: 3px 3px rgb(29,32,33); 
+    position: absolute;
+    display: flex;
+    
+}
+#searchboxsub{
+    width: 150px;
+    height: 30px;
+    background-color: white;
+    display: inline;
+    border: 1px;
+    border-color: black; 
+    position: relative;
+    left: 20px;
+    top: 6px;
+    border: 1px inset;
+
+}
+#searchboxsub p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: gray;
+    text-align: center;
+    
+
+}
+#go{
+    width: 30px;
+    height:25px;
+    background-color: rgb(20,82,116);
+    display: inline;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 2px inset;
+    position: relative;
+    left: 25px;
+    bottom: 7px;
+
+}
+#go p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 3px; 
+    
+}
+#buttons{
+    height: 20px;
+    width: 700px;
+    background: linear-gradient(rgb(28,122,173), rgb(56,128,170), rgb(28, 122, 173));
+    border-radius: 4px;
+    box-shadow: 2px 2px rgb(29,32,50); 
+    position: relative;
+    top: 0px;
+    left: 100px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+
+}
+#buttons ul{
+    list-style-type: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    display: flex;
+    flex-direction: row;
+
+}
+#buttons li{
+    margin-left: 18px;
+    margin-right: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    align-content: center;
+
+}
+#navigation{
+    position: relative;
+    right: 675px;
+    top: 50px;
+}
+#navigation ul{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    text-align: center;
+
+}
+#navigation a{
+    color: white;
+
+}
+#navigation li{
+    margin-top: 10px;
+
+}
+#navigation li:before{
+    content: "\00BB\0020";
+    color: gold;
+
+}
+#description{
+    color: white;
+    width: 500px;
+    margin-left: 300px;
+    display: inline;
+    vertical-align: top;
+    position: relative;
+    bottom: 135px;
+    left: 30px;
+
+}
+#description p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+
+}
+#description ul{
+    color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    list-style-type: none;
+    text-align: center;
+    padding-right: 30px;
+     
+}
+#description li{
+    margin: 5px;
+}
+#whitewrapper {
+    width: 970px;
+    height: 250px;
+    background-color: white;
+    position: relative;
+    bottom: 130px;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+
+}
+#gettingstarted {
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 70px;
+
+}
+#gettingstarted h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-top: 5px;
+    border-top: 3px rgb(28,122,173) solid;
+    padding-top: 15px;
+    
+}
+#gettingstarted p{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+text-align: center;
+
+}
+#gettingstarted ul{
+    list-style-type: none;
+
+}
+#gettingstarted li{
+    color: rgb(20,82,116);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    text-align: center;
+
+}
+#gettingstarted li:before{
+    content: "•";
+    color: black;
+    display: inline-block;
+    width: 1px;
+    margin-right: 10px;
+
+}
+#applications {
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 20px;
+
+}
+#applications h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-top: 5px;
+    border-top: 3px rgb(28,122,173) solid;
+    padding-top: 15px;
+    
+}
+#applications p{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+text-align: center;
+
+}
+#applications ul{
+    list-style-type: none;
+
+}
+#applications li{
+    color: rgb(20,82,116);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    text-align: center;
+
+}
+#applications li:before{
+    content: "•";
+    color: black;
+    display: inline-block;
+    width: 1px;
+    margin-right: 10px;
+}
+#applications span{
+    color: rgb(20,82,116);
+
+}
+#bluewrapperbottom{
+    width: 970px;
+    height: 70px;
+    background: linear-gradient(rgb(28,122,173), rgb(51, 126, 173),rgb(56,128,170));
+    margin-top: 23px;
+    display: flex;
+
+}
+#bluewrapperbottom ul{
+    list-style-type: none;
+    display: flex;
+    flex-flow: row;
+    position: relative;
+    left: 180px;
+    bottom: 10px;
+
+}
+#bluewrapperbottom li{
+    color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 20px;
+    
+}
+#bluewrapperbottom p{
+    color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 45px;
+    right: 120px;
+}
