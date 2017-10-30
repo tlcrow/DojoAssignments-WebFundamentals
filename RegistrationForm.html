@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Registration Form</title>
+    </head> 
+    <body>
+        <h2>Registration Form</h2>
+        <form>
+            <p>
+                <label for="first_name">First Name:</label>
+                <input type="text" id="first_name" name="first_name">
+            </p>
+            <p>
+                <label for="last_name">Last Name:</label>
+                <input type="text" id="last_name" name="last_name">
+            </P>
+            <p>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email">
+            </p>
+            <p>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
+            </p>
+            <p>
+                <label for="pw_confirm">Password Confirmation:</label>
+                <input type="password" id="pw_confirm" name="password_confirmation">
+            </p>
+            <p>
+                <label for="calendar">Birthday </label>
+                <input id="caledar" type="date" value="mm/dd/yyyy"/>
+            <p>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male">
+            
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female">
+            
+                <label for="other">Other</label>
+                <input type="radio" id="female" name="gender" value="other">
+            </p>
+            <p>
+                <p>A shot description about yourself</p>
+                <textarea name="description"></textarea>
+            </p>
+            <p>
+                <label for="Favorite Language">Favorite Language</label>
+                <select name="Favorite Language">
+                <option value="Select">Select</option>
+                <option value="Python">Python</option>
+                <option value="Java">Java</option>
+                <option value="Ruby">Ruby</option>
+                </select>
+            </p>  
+                <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
