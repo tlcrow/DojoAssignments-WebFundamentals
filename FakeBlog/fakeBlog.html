@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Fake Blog Assignment</title>
+        <meta name="description" content="Greenery-Pantone color 2017">
+        <link rel="stylesheet" type="text/css" href="fakeBlog.css">
+    </head>
+    <body>
+        <h1>Pantone 15-0343 (The Color of 2017) </h1>
+        <img src="http://www.pantone.com/images/COY/2017/pages-Color-Formulas-Guides/Pantone_Color_of_the_Year_Greenery_Color_Formulas_Guides_Banner.jpg" alt="Greenery-Color of 2017">
+        <p>
+            Determined by Pantone every year, the "Color of the Year" is meant to give inspiration to fashion and home decore. This year a spring-time green called "Greenery" will evoke a revitalizing feeling.
+            <a href="https://www.pantone.com/color-of-the-year-2017">To learn more...</a>
+        </p>
+        <h3>Colors from past years</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>Color Hue</th>
+                    <th>Color Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2016</td>
+                    <td>&emsp;Pantone 15-3913</td>
+                    <td id="Serenity">&emsp;Serenity-Baby Blue</td>
+                </tr>
+                <tr>
+                    <td>2015</td>
+                    <td>&emsp;Pantone 18-1438</td>
+                    <td id="Marsala">&emsp;Marsala-Redish Brown</td>
+                </tr>
+                <tr>
+                    <td>2014</td>
+                    <td>&emsp;Pantone 18-3224</td>
+                    <td id="Orchid">&emsp;Radiant Orchid-Violet</td>
+                </tr>
+                <tr>
+                    <td>2013</td>
+                    <td>&emsp;Pantone 17-5641</td>
+                    <td id="emerald">&emsp;Emerald-Green</td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="https://en.wikipedia.org/wiki/Pantone">More Colors</a>
+        <h4>Other unofficial colors of the year</h4>
+        <ul>
+            <li>Shadow 2117-30 - Benjamin Moore</li>
+            <li>Pink and Sunshine Yellow - Vogue Magazine</li>
+        </ul>
+        <div id=survey>
+        <h3>What are your thoughts on this years color?</h3>
+        <form>
+            <p>Do you like this year's color?</p>
+            <label for="yes">Yes</label>
+            <input type="radio" id="yes" name="Do you like this year's color?" value="yes">
+            <label for="no">No</label>
+            <input type="radio" id="no" name="Do you like this year's color?" value="No">
+             <br>
+
+            <p>How does this year's color make you feel?</p>
+            <label for="Energized">Energized</label>
+            <input type="checkbox" id="Energized" name="emotion" value="Energized">
+            <br>
+
+            <label for="Springy">Springy</label>
+            <input type="checkbox" id="Springy" name="emotion" value="Springy">
+            <br>
+
+            <label for="Revitalized">Revitalized</label>
+            <input type="checkbox" id="Revitalized" name="emotion" value="Revitalized">
+            <br>
+
+            <label for="Motivated">Motivated</label>
+            <input type="checkbox" id="Motivated" name="emotion" value="Motivated">
+            <br>
+            <br>
+
+            <label for="color">What is your favorite color of the last five years?</label>
+            <select id="color">
+                <option value="">select</option>
+                <option value="">Greenery</option>
+                <option value="">Serenity</option>
+                <option value="">Marsala</option>
+                <option value="">Radiant Orchid</option>
+                <option value="">Emerald</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="desc">What should next year's color be?</label>
+            <br>
+            <textarea id="desc" cols="30" rows="10"></textarea>
+            <br>
+        
+            <input type="submit" value="Submit">
+        </form>
+        </div>
+    </body>
+</html>
