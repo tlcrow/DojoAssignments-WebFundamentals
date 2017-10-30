@@ -1,0 +1,59 @@
+#tanwrapper{
+    width: 580px;
+    height: 580px;
+    background-color: tan;
+    padding: 10px;
+    display: inline-flex;
+    position: absolute;
+    flex-flow: row wrap;
+}
+
+#title{
+    display: inline-flex;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+#title h1{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#title img{
+    width: 100px;
+    height: 60px;
+}
+
+#ninjacat{
+    width: 100px;
+    height: 60px;
+    background-color: white;
+}
+
+.bluebackground{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border: 3px black solid;
+    margin: auto;
+}
+
+.bluebackground img{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+
+.pinkbackground{
+    width: 100px;
+    height: 100px;
+    background-color:pink;
+    border: 3px black solid;
+    margin: auto;
+}
+
+.pinkbackground img{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
