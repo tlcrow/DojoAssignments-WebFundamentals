@@ -1,0 +1,274 @@
+#bigwrapperwhite{
+    width: 970px;
+    height: 800px;
+    position: absolute;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#globe{
+    width: 75px;
+    height: 75px;
+    position: relative;
+    top: 20px;
+   
+}
+
+#bigwrapperwhite h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(100,100,100);
+    position: relative;
+    top: 20px;
+}
+
+.blue{
+    color:rgb(0,104,156);
+}
+
+#bluebanner{
+    width: 970px;
+    height: 0px;
+    background: linear-gradient(rgb(2,106,157), rgb(63,129,168), rgb(2,106,157));
+    color: white;
+    padding-left: 20px;
+    padding-right: 712px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-family: Arial, Helvetica, sans-serif
+}
+#bluebanner h2{
+    position: relative;
+    bottom: 35px;
+}
+
+#interested{
+    width: 175px;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(rgb(228,228,228), white);
+}
+
+#interested h5{
+    position: relative;
+    bottom: 15px;
+}
+
+#internet{
+    color: red;
+}
+
+#watchavideo{
+    width: 175px;
+    height: 20px;
+    color: white;
+    background: linear-gradient(rgb(63,129,168), rgb(25, 115, 160), rgb(2,106,157));
+    border-radius: 4px;
+    box-shadow: 2px 2px rgb(120,120,120);
+    font-size: 12pt;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 7px;
+    position: relative;
+    bottom: 20px;
+
+}
+
+#moreresources{
+    width: 175px;
+    height: 20px;
+    color: white;
+    background: linear-gradient(rgb(241,170,97), rgb(244,150, 60), rgb(248,116,18));
+    border-radius: 4px;
+    box-shadow: 2px 2px rgb(120,120,120);
+    font-size: 12pt;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 7px;
+    position: relative;
+    bottom: 30px;
+}
+
+#interested img{
+    position: relative;
+    bottom: 30px;
+    left: 5px;
+}
+#dialtone{
+    width: 175px;
+    height: 250px;
+    position: relative;
+    background-image: url(ad_background.png);
+    bottom: 40px;
+}
+
+#dialtone p{
+    color: white;
+    font-size: 14pt;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+#dialtone img{
+    width: 75px;
+    height: 100px;
+    position: relative;
+    top: 15px;
+    left: 50px;
+}
+
+#dialtone h3{
+    width: 125px;
+    height: 20px;
+    text-align: center;
+    background: linear-gradient(rgb(105,209,222), rgb(50,190,220), rgb(0,185,219));
+    border-radius: 5px;
+    font-size: 12pt;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    position: relative;
+    left: 25px;
+    top: 10px;
+}
+
+#contactus{
+    width: 750px;
+    height: 500px;
+    background: linear-gradient(rgb(228,228,228), white);
+    padding-right: 45px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#home{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 75px;
+    top: 5px;
+}
+
+#bluephone{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 490px;
+    top: 15px;
+}
+
+#contactus h6{
+    color: rgb(0,104,156);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    position: relative;
+    bottom: 17px;
+    left: 80px;
+    
+}
+
+#contactus ul{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    position: relative;
+    left: 460px;
+}
+
+#phonenumber{
+    color: rgb(0,185,219);
+    font-size: 16pt;
+    font-weight: bold;
+    position: relative;
+    top: 2px;
+    right: 5px;
+}
+
+#clientservers{
+    width: 720px;
+    height: 300px;
+    border-top: 1px gray solid;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 250px;
+    bottom: 420px;
+}
+
+#clientservers h3{
+    color: rgb(0,104,156);
+    margin-top: 5px;
+}
+
+#clientservers p{
+    margin-top: -10px;
+}
+
+#clientservers ul{
+    margin-top: -10px;
+}
+.bold{
+    font-weight: bold;
+}
+
+.brightblue{
+    color:rgb(0,185,219);
+    font-weight: bold;
+}
+
+#glasses{
+    width: 300px;
+    height: 125px;
+    display: block;
+    margin: auto;
+}
+
+#actuallyhappens{
+    width: 720px;
+    height: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 260px;
+    bottom: 400px;
+}
+
+#actuallyhappens h3{
+    color: rgb(0,104,156)
+}
+
+#thebigthree{
+   width: 710px;
+   height: 130px;
+   font-family: Arial, Helvetica, sans-serif; 
+   border-top: 5px rgb(0,185,219) solid;
+   border-left: 5px rgb(0,185,219) solid;
+   border-right: 5px rgb(0,185,219) solid;
+   position: relative;
+   left: 265px;
+   bottom: 485px;
+}
+
+#thebigthree img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 50px;
+    top: 20px;
+
+}
+
+#thebigthree h3{
+    margin: -50px;
+    position: relative;
+    bottom: 45px;
+    left: 250px;
+}
+
+#thebigthree p{
+    width: 500px;
+    position: relative;
+    left: 200px;
+}
+
+#thebigthree a{
+    text-decoration: none;
+    color: rgb(0,185,219);
+}
